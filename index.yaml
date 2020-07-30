@@ -3,7 +3,7 @@ entries:
   spinnaker:
   - apiVersion: v1
     appVersion: 1.16.2
-    created: "2020-07-30T08:35:25.551572818Z"
+    created: "2020-07-30T09:13:24.20489473Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -15,7 +15,7 @@ entries:
       version: 5.0.9
     description: Open source, multi-cloud continuous delivery platform for releasing
       software changes with high velocity and confidence.
-    digest: 32fa2746ee62188846fb48348c8eea203522791ccbb6fe9f5b575636185e23ea
+    digest: fbe060aacd01d9d6f46e47c46e489c88bb3ca2fff38fd9fb6eeb305232a9f58e
     home: http://spinnaker.io/
     icon: https://pbs.twimg.com/profile_images/669205226994319362/O7OjwPrh_400x400.png
     maintainers:
@@ -32,6 +32,6 @@ entries:
     - https://github.com/spinnaker
     - https://github.com/viglesiasce/images
     urls:
-    - https://clusterfrak-dynamics.github.io/charts/spinnaker-2.2.0.tgz
-    version: 2.2.0
-generated: "2020-07-30T08:35:25.544990578Z"
+    - https://clusterfrak-dynamics.github.io/charts/spinnaker-2.2.1.tgz
+    version: 2.2.1
+generated: "2020-07-30T09:13:24.196850654Z"
