@@ -20,6 +20,9 @@ jobs:
     - name: 'charts:lint'
       run: helm lint stable/*
 
+    - name: 'charts:deps'
+      run: helm dependency update stable/*
+
     - name: 'charts:package'
       run: helm package -d dist stable/*
 
